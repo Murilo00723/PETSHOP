@@ -1,0 +1,158 @@
+/* tags gerais (elemento) */
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    text-align: center;
+    background-image: url("../img/fundo-topo.jpg");
+    padding: 10px 0;
+    /* primeiro parametro = superior e inferior */
+    /* segundo parametro = esquerda e direita */
+}
+header h1{
+    margin: 0;
+    height: 84px;
+}
+
+nav{
+    padding: 15px 0;
+    text-align: center;
+}
+nav li{
+    display: inline;
+    background-image: url("../img/patinha-preta.png");
+    background-repeat: no-repeat;
+    margin-right: 10px;
+    padding-right: 30px;
+    background-position: center right;
+}
+
+nav a{
+    text-decoration: none;
+    color:#000
+}
+
+nav a:hover{
+   color:#6dd432;
+}
+h2{
+    text-transform: uppercase;
+    margin-bottom: 15px;
+}
+
+iframe{
+    width: 100%;
+}
+
+form{
+    width: 380px;
+}
+
+form input,
+form textarea{
+    width: 100%;
+    border: 1px solid #6dd432;
+    border-radius: 3px;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+
+/* Especificos (#id) */    
+#itemContato{
+    background-image: none;
+    padding-right: 0;
+    margin-right: 0;
+/* Para tirar a ultima patinha */
+}
+
+#produto .flex-container, #contato.flex-container{
+    margin-top: 43px;
+}
+
+
+/* Grupos de elementos diferentos (.classe) */
+.Fundo-verde{
+    background-color: #bdff9c;
+    
+}
+.container{
+    width: 900px;
+    margin: 0 auto;
+    padding: 56px 0;
+}
+
+.flex-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.flex-container .col{
+        width: 430px;
+}
+.produto{
+    width: 235px;
+
+}
+.produto figure{
+    border: 1px solid #c4c4c4;
+    background-color: #fff;
+    margin: 0 0 15px 0;
+    padding: 0;
+    text-align: center;
+    height: 160px;
+    line-height: 160px;
+}
+
+.produto figure img{
+    vertical-align: middle;
+
+}
+.texto-centralizado{
+    text-align: center;
+}
+.btn-pata{
+    border: 1px solid #91e497;
+    background-color: #d2fbbd;
+    display: inline-block;
+    padding: 10px 20px;
+    text-decoration: none;
+    color: #000;
+    border-radius: 5px;
+    cursor:pointer;
+}
+
+
+.instagram-link {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: black; 
+    margin-top: 10px;
+}
+
+.instagram-link span {
+    margin-left: 8px;
+    font-family: Arial, Helvetica, sans-serif;
+   
+    
+}
+.imagem_rodape {
+    width: 50px; 
+    height: auto;
+    
+}
+
+.lado{
+    display: flex;
+   gap: 50px;
+   padding-left: 200px;
+   
+}
+.fundo{
+    background-color: #DCDCDC;
+}
